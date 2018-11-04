@@ -5,6 +5,5 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="safe_handle.h" />
-    <ClInclude Include="binary_file.h" />
   </ItemGroup>
 </Project>

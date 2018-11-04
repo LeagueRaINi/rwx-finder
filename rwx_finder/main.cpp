@@ -1,6 +1,7 @@
 ﻿#include <windows.h>
 #include <execution>
 #include <wintrust.h>
+
 #include "safe_handle.h"
 
 #include <iostream>
