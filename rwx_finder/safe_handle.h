@@ -24,7 +24,8 @@ public:
 private:
 	static auto close_handle( HANDLE handle ) noexcept -> void
 	{
-		if ( handle != INVALID_HANDLE_VALUE )
+		if ( handle != INVALID_HANDLE_VALUE ) {
 			CloseHandle( handle );
+		}
 	}
 };
